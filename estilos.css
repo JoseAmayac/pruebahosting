@@ -1,0 +1,125 @@
+*{
+    color: red; 
+}
+
+/* Selector de etiqueta */
+h1{
+    color: mediumvioletred;
+}
+
+h1{
+    color: aqua;
+}
+
+
+/* Selector de clase */
+.titulo{
+    color: lime ;
+}
+
+
+/* Selector por id */
+#titulo_especial{
+    color: teal; 
+}
+
+
+span{
+    color: blue ;
+}
+
+.span{
+    color: green;
+}
+
+#span{
+    color: yellow;
+}
+
+#span{
+    color: violet;
+}
+
+
+#span:hover{
+    color: black ;
+}
+
+#enlace_youtube{
+    color: blue;
+    text-decoration: none;
+}
+
+#enlace_youtube:hover{
+    color: green ;
+}
+
+#enlace_youtube:active{
+    color: grey;
+}
+
+#enlace_youtube:visited{
+    color: black;
+}
+
+input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+input[type="email"]{
+    color: blue !important;
+}
+
+#input_email{
+    color: chartreuse;
+}
+
+.padre_del_p{
+    font-size: 10px !important;
+}
+
+.p_texto_largo{
+    color: black;
+    font-size: 4em;
+    /* font-family: 'Dancing Script', cursive; */
+    font-weight: 900;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 2;    
+    /* text-decoration: underline; */
+    /* text-transform: capitalize; */
+    text-align: center;
+    text-shadow: 1px 2px 3px red;
+}
+
+
+/* Defecto 
+
+    1em -> 16px 
+
+*/
+
+/* 
+    Font size difinida en el padre
+
+    1em -> El valor de la propiedad font size en el padre 
+
+    1em -> 5px
+
+
+*/
+
+
+/* 
+    Nivel de especificidad 
+
+    1. Important
+    2. Inline css
+    3. ID
+    4. Clase = atributos = pseudoclases
+    5. Elemento = pseudoelementos
+    6. Global
+*/
